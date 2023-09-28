@@ -1,0 +1,10 @@
+ctransformers
+faiss-cpu
+fastapi
+ipykernel
+langchain
+pypdf
+python-box
+python-dotenv
+sentence-transformers
+uvicorn
