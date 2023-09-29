@@ -190,7 +190,7 @@ class DocumentProcessor:
             print(f'\nSource Document {i + 1}\n')
             print(f'Source Text: {doc.page_content}')
             print(f'Document Name: {doc.metadata["source"]}')
-            print(f'Page Number: {doc.metadata["page"]}\n')
+            print(f'Page Number: {doc.metadata["page"]}\n') # bug if no pages
             print('=' * 50)  # Formatting separator
 
         # Display time taken for CPU inference
